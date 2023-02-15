@@ -1,0 +1,15 @@
+class Circlesample
+{
+static void area(int r)
+{
+  final double pi=3.142;
+  double res=pi*r*r;
+  System.out.println("the area of circlesample is"+res);
+  }
+  public static void main (String[ ] args)
+  {
+  System.out.println("---------MS---------");
+  area(3);
+  System.out.println("---------ME---------");
+  }
+}

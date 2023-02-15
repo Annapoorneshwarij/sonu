@@ -1,0 +1,23 @@
+class Ola_v1
+{
+void ride()
+{
+System.out.println("ride with cabs....");
+}
+}
+class Ola_v2 extends Ola_v1
+{
+void ride()
+{
+System.out.println("ride with auto and cabs....");
+}
+}
+class Mainclass1
+{
+public static void main(String[] args)
+{
+Ola_v2=new Ola_v2();
+o1.ride();
+}
+}
+

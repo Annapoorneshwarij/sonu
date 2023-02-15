@@ -1,0 +1,14 @@
+class Sectnon
+{
+  void area()
+  { 
+  int r=3;
+  final double t=30.5;
+  final double res=0.5*r*r*t
+  System.out.println(res);
+  }
+    public static void main(String[] args)
+  {
+   new Sectnon().area();
+  }
+}

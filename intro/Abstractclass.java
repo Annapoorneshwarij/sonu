@@ -1,0 +1,26 @@
+abstract class Sample1
+{
+ abstract void cool();
+ abstract void test();
+}
+class Demo1 extends Sample1
+{
+ void cool()
+ {
+ System.out.println("hii");
+ }
+ void test()
+ {
+ System.out.println("hello");
+ }
+}
+class Abstractclass
+{
+public static void main(String[] args)
+{
+Demo d1=new Demo1();
+d1.cool();
+d1.test();
+}
+}
+

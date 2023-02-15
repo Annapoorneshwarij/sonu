@@ -1,0 +1,15 @@
+class  Triasam1
+{
+  static void area(int b,int h)
+  { 
+    double res=0.5*h*w;
+    System.out.println(res);
+   }
+ }  
+ class Triasam2
+ {
+   public static void main(String[] args)
+   {
+     Triasam1.area(3,4);
+   }
+ }

@@ -1,0 +1,15 @@
+class Parasam
+{
+ void area()
+ {
+ int b=3;
+ int h=4;
+ int c=b*h;
+ System.out.println(c);
+ }
+   public static void main(String[] args)
+ {
+   Parasam P1 = new Parasam();
+      P1.area();
+ }
+}

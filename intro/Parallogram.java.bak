@@ -1,0 +1,17 @@
+class Parallogram
+{
+  static void Parallogram( )
+	{
+       int b=4;
+       int h=8;
+       int res=b*h;
+   System.out.println("the area of Parallogram is"+res);
+   return;
+     }
+   public static void main (String[] args)
+   {
+     System.out.println("--------MS---------");
+      Parallogram( );
+     System.out.print("--------ME---------");
+   }
+}

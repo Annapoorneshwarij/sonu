@@ -1,0 +1,17 @@
+class Traprvrt
+{
+ double area()
+ {
+ int a=3;
+ int b=4;
+ int h=5;
+ int c=0.5*(a+b*h);
+ return (c);
+ }
+   public static void main(String[] args)
+ {
+   Traprvrt T1 = new Traprvrt();
+      double x= T1.area();
+      System.out.println(x);
+ }
+ }

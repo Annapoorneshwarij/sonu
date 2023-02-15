@@ -1,0 +1,16 @@
+class Ellisesam1
+{
+  static void area(int a,int b)
+  { 
+    final double pi=3.142;
+    double res=pi*a*b;
+    System.out.println(res);
+   }
+ }  
+ class Ellisesam2
+ {
+   public static void main(String[] args)
+   {
+     Ellisesam1.area(3,6);
+   }
+ }
